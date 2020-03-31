@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    name: demo
+    url: jdbc:mysql://localhost:3306/demo?useUnicode=true&useSSL=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+  http:
+    multipart:
+      max-file-size: 1000MB
+
+mybatis:
+  mapper-locations: classpath:xml/*.xml
+  type-aliases-package: com.example.project.model
+server:
+  tomcat:
+    max-http-form-post-size: 1000MB
+    connection-timeout: 1800000000
+logging:
+  file:
+    path: /
+    name: springbootdemo.log
+  level:
+    com.example.project.mapper: debug

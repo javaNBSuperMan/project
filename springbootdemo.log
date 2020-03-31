@@ -1,0 +1,118 @@
+2020-01-08 11:03:53.579  INFO 13680 --- [restartedMain] com.example.project.ProjectApplication   : Starting ProjectApplication on DESKTOP-8Q6A9DE with PID 13680 (F:\wxy_ideaWork\project\target\classes started by zhangwei in F:\wxy_ideaWork\project)
+2020-01-08 11:03:53.619  INFO 13680 --- [restartedMain] com.example.project.ProjectApplication   : No active profile set, falling back to default profiles: default
+2020-01-08 11:03:54.102  INFO 13680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-08 11:03:54.103  INFO 13680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-08 11:03:57.751  INFO 13680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-08 11:03:57.766  INFO 13680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-08 11:03:57.767  INFO 13680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-08 11:03:57.904  INFO 13680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-08 11:03:57.904  INFO 13680 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3798 ms
+2020-01-08 11:03:59.352  INFO 13680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-08 11:03:59.574  INFO 13680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-08 11:04:00.533  INFO 13680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-08 11:04:00.684  INFO 13680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-08 11:04:00.688  INFO 13680 --- [restartedMain] com.example.project.ProjectApplication   : Started ProjectApplication in 8.908 seconds (JVM running for 16.79)
+2020-01-08 11:06:02.007  INFO 2352 --- [restartedMain] com.example.project.ProjectApplication   : Starting ProjectApplication on DESKTOP-8Q6A9DE with PID 2352 (F:\wxy_ideaWork\project\target\classes started by zhangwei in F:\wxy_ideaWork\project)
+2020-01-08 11:06:02.013  INFO 2352 --- [restartedMain] com.example.project.ProjectApplication   : No active profile set, falling back to default profiles: default
+2020-01-08 11:06:02.158  INFO 2352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-08 11:06:02.159  INFO 2352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-08 11:06:03.383  INFO 2352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-01-08 11:06:03.392  INFO 2352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-08 11:06:03.392  INFO 2352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-08 11:06:03.499  INFO 2352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-08 11:06:03.499  INFO 2352 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1340 ms
+2020-01-08 11:06:06.398  INFO 2352 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-08 11:06:30.943  INFO 15004 --- [restartedMain] com.example.project.ProjectApplication   : Starting ProjectApplication on DESKTOP-8Q6A9DE with PID 15004 (F:\wxy_ideaWork\project\target\classes started by zhangwei in F:\wxy_ideaWork\project)
+2020-01-08 11:06:30.947  INFO 15004 --- [restartedMain] com.example.project.ProjectApplication   : No active profile set, falling back to default profiles: default
+2020-01-08 11:06:31.051  INFO 15004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-08 11:06:31.052  INFO 15004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-08 11:06:32.292  INFO 15004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-01-08 11:06:32.301  INFO 15004 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-08 11:06:32.302  INFO 15004 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-08 11:06:32.401  INFO 15004 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-08 11:06:32.402  INFO 15004 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1350 ms
+2020-01-08 11:06:32.870  INFO 15004 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-08 11:06:32.932  INFO 15004 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-08 11:06:33.144  INFO 15004 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-08 11:06:33.236  INFO 15004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-01-08 11:06:33.240  INFO 15004 --- [restartedMain] com.example.project.ProjectApplication   : Started ProjectApplication in 2.845 seconds (JVM running for 4.392)
+2020-01-08 11:06:56.081  INFO 10540 --- [restartedMain] com.example.project.ProjectApplication   : Starting ProjectApplication on DESKTOP-8Q6A9DE with PID 10540 (F:\wxy_ideaWork\project\target\classes started by zhangwei in F:\wxy_ideaWork\project)
+2020-01-08 11:06:56.085  INFO 10540 --- [restartedMain] com.example.project.ProjectApplication   : No active profile set, falling back to default profiles: default
+2020-01-08 11:06:56.199  INFO 10540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-08 11:06:56.200  INFO 10540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-08 11:06:57.382  INFO 10540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-01-08 11:06:57.391  INFO 10540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-08 11:06:57.391  INFO 10540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-08 11:06:57.489  INFO 10540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-08 11:06:57.489  INFO 10540 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1289 ms
+2020-01-08 11:06:57.969  INFO 10540 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-08 11:06:58.035  INFO 10540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-08 11:06:58.173  INFO 10540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-08 11:06:58.222  INFO 10540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-01-08 11:06:58.225  INFO 10540 --- [restartedMain] com.example.project.ProjectApplication   : Started ProjectApplication in 2.604 seconds (JVM running for 4.069)
+2020-01-08 11:13:15.601  INFO 14812 --- [restartedMain] com.example.project.ProjectApplication   : Starting ProjectApplication on DESKTOP-8Q6A9DE with PID 14812 (F:\wxy_ideaWork\project\target\classes started by zhangwei in F:\wxy_ideaWork\project)
+2020-01-08 11:13:15.603  INFO 14812 --- [restartedMain] com.example.project.ProjectApplication   : No active profile set, falling back to default profiles: default
+2020-01-08 11:13:15.664  INFO 14812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-08 11:13:15.664  INFO 14812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-08 11:13:17.010  INFO 14812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-01-08 11:13:17.019  INFO 14812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-08 11:13:17.019  INFO 14812 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-08 11:13:17.150  INFO 14812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-08 11:13:17.150  INFO 14812 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1486 ms
+2020-01-08 11:13:17.658  INFO 14812 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-08 11:13:17.720  INFO 14812 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-08 11:13:17.857  INFO 14812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-08 11:13:17.908  INFO 14812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-01-08 11:13:17.912  INFO 14812 --- [restartedMain] com.example.project.ProjectApplication   : Started ProjectApplication in 2.805 seconds (JVM running for 4.305)
+2020-01-08 11:13:20.877  INFO 14812 --- [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-08 11:13:20.878  INFO 14812 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-08 11:13:20.960  INFO 14812 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 82 ms
+2020-01-08 11:14:18.331  INFO 14812 --- [http-nio-8083-exec-6] com.zaxxer.hikari.HikariDataSource       : demo - Starting...
+2020-01-08 11:14:19.349  INFO 14812 --- [http-nio-8083-exec-6] com.zaxxer.hikari.HikariDataSource       : demo - Start completed.
+2020-01-08 11:14:19.376 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.m.ProductsMapper.getProductsMax    : ==>  Preparing: SELECT * FROM products order by create_date DESC LIMIT 1; 
+2020-01-08 11:14:19.404 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.m.ProductsMapper.getProductsMax    : ==> Parameters: 
+2020-01-08 11:14:19.616 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.m.ProductsMapper.getProductsMax    : <==      Total: 1
+2020-01-08 11:14:19.624 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.m.P.getAllByProductsid             : ==>  Preparing: SELECT * FROM products_image where products_id = ? order by img_num asc 
+2020-01-08 11:14:19.625 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.m.P.getAllByProductsid             : ==> Parameters: 402899816f3fe153016f3fe153b20000(String)
+2020-01-08 11:14:20.222 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.m.P.getAllByProductsid             : <==      Total: 5
+2020-01-08 11:14:20.223 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.mapper.ProductsMapper.update       : ==>  Preparing: update products set read_num = ? where id = ? 
+2020-01-08 11:14:20.223 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.mapper.ProductsMapper.update       : ==> Parameters: 105(Integer), 402899816f3fe153016f3fe153b20000(String)
+2020-01-08 11:14:21.957 DEBUG 14812 --- [http-nio-8083-exec-6] c.e.p.mapper.ProductsMapper.update       : <==    Updates: 1
+2020-01-08 11:14:30.621 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.mapper.ProductsMapper.getAll       : ==>  Preparing: SELECT * FROM products order by create_date desc 
+2020-01-08 11:14:30.622 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.mapper.ProductsMapper.getAll       : ==> Parameters: 
+2020-01-08 11:14:30.624 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.mapper.ProductsMapper.getAll       : <==      Total: 4
+2020-01-08 11:14:30.625 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : ==>  Preparing: SELECT * FROM products_image where products_id = ? order by img_num asc 
+2020-01-08 11:14:30.625 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : ==> Parameters: 402899816f3fe153016f3fe153b20000(String)
+2020-01-08 11:14:30.733 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : <==      Total: 5
+2020-01-08 11:14:30.733 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : ==>  Preparing: SELECT * FROM products_image where products_id = ? order by img_num asc 
+2020-01-08 11:14:30.734 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : ==> Parameters: 402899816f3c48e7016f3c48e7580000(String)
+2020-01-08 11:14:30.821 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : <==      Total: 1
+2020-01-08 11:14:30.822 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : ==>  Preparing: SELECT * FROM products_image where products_id = ? order by img_num asc 
+2020-01-08 11:14:30.823 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : ==> Parameters: 402899816f3b1501016f3b15014f0000(String)
+2020-01-08 11:14:30.931 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : <==      Total: 1
+2020-01-08 11:14:30.932 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : ==>  Preparing: SELECT * FROM products_image where products_id = ? order by img_num asc 
+2020-01-08 11:14:30.932 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : ==> Parameters: 402899816f361713016f361e472c000b(String)
+2020-01-08 11:14:30.957 DEBUG 14812 --- [http-nio-8083-exec-3] c.e.p.m.P.getAllByProductsid             : <==      Total: 2
+2020-01-08 11:14:33.197 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.m.ProductsMapper.getProductsById   : ==>  Preparing: SELECT * FROM products where id = ? 
+2020-01-08 11:14:33.198 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.m.ProductsMapper.getProductsById   : ==> Parameters: 402899816f3c48e7016f3c48e7580000(String)
+2020-01-08 11:14:33.254 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.m.ProductsMapper.getProductsById   : <==      Total: 1
+2020-01-08 11:14:33.257 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.mapper.ProductsMapper.update       : ==>  Preparing: update products set read_num = ? where id = ? 
+2020-01-08 11:14:33.257 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.mapper.ProductsMapper.update       : ==> Parameters: 105(Integer), 402899816f3c48e7016f3c48e7580000(String)
+2020-01-08 11:14:33.378 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.mapper.ProductsMapper.update       : <==    Updates: 1
+2020-01-08 11:14:33.380 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.m.P.getAllByProductsid             : ==>  Preparing: SELECT * FROM products_image where products_id = ? order by img_num asc 
+2020-01-08 11:14:33.381 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.m.P.getAllByProductsid             : ==> Parameters: 402899816f3c48e7016f3c48e7580000(String)
+2020-01-08 11:14:33.396 DEBUG 14812 --- [http-nio-8083-exec-4] c.e.p.m.P.getAllByProductsid             : <==      Total: 1
+2020-01-08 11:15:10.612  INFO 8120 --- [restartedMain] com.example.project.ProjectApplication   : Starting ProjectApplication on DESKTOP-8Q6A9DE with PID 8120 (F:\wxy_ideaWork\project\target\classes started by zhangwei in F:\wxy_ideaWork\project)
+2020-01-08 11:15:10.615  INFO 8120 --- [restartedMain] com.example.project.ProjectApplication   : No active profile set, falling back to default profiles: default
+2020-01-08 11:15:10.798  INFO 8120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-08 11:15:10.799  INFO 8120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-08 11:15:11.927  INFO 8120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-08 11:15:11.936  INFO 8120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-08 11:15:11.937  INFO 8120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-08 11:15:12.018  INFO 8120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-08 11:15:12.019  INFO 8120 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1220 ms
+2020-01-08 11:15:12.512  INFO 8120 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-08 11:15:12.579  INFO 8120 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-08 11:15:12.731  INFO 8120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-08 11:15:12.780  INFO 8120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-08 11:15:12.785  INFO 8120 --- [restartedMain] com.example.project.ProjectApplication   : Started ProjectApplication in 2.76 seconds (JVM running for 4.085)

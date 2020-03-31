@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>挺博士运营中心</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-responsive.css" >
+    <script src="layui/jquery-2.1.1.min.js"></script>
+    <script src="layui/layui.all.js"></script>
+    <script src="bootstrap/bootstrap.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+
+        })
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12 col-md-12" style="border: 0px saddlebrown solid">
+                <h2 th:text="${products.title}"></h2>
+                <hr style="background-color: #dedee2;height: 1px;border: none;width: 98%">
+                <span style="font-size: 15px;" th:text="${#dates.format(products.createDate, 'yyyy-MM-dd')}">2019-12-13</span>
+                <a style="font-size: 15px;" href="getAll">挺博士运营中心</a>
+                <span style="font-size: 15px;" th:text="'阅读:'+ ${products.readNum}"></span>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-xs-12 col-lg-12 col-md-12" style="border: 0px saddlebrown solid">
+                <span style="font-size: 15px;" th:text="${products.content}"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-lg-12 col-md-12" style="border: 0px saddlebrown solid">
+                <img style="width: 99.5%" th:each="obj,memberStat:${imgList}"  th:src="${obj.imgSrc}"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

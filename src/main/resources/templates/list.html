@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>王信雨测试网站</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-responsive.css" >
+    <script src="layui/jquery-2.1.1.min.js"></script>
+    <script src="layui/layui.all.js"></script>
+    <script src="bootstrap/bootstrap.js"></script>
+    <script src="js/base64.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".dj").click(function(){
+                $(this).css("background-color", "#F8F8FF");
+                location.href="view?id=" + encode64($(this).attr("data-id"));
+            });
+
+            $(".btn-danger").click(function(){
+                var id = encode64($(this).attr("data-id"));
+                layer.confirm('您确定要删除整条内容吗?', {
+                    icon: 3,
+                    btn: ['确定', '取消']
+                }, function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "delete",
+                        each: false,
+                        data: {
+                            id: id
+                        },
+                        success: function (data) {
+                            if(data < 1) {
+                                layer.alert("删除失败！", {icon: 2});
+                            } else {
+                                location.reload();
+                            }
+                        }
+                    })
+                }, function () {
+                });
+            });
+        })
+    </script>
+</head>
+<body>
+    <div class="container-fluid" th:if="${data != null &amp;&amp; data.size() != 0 }">
+        <div th:each="obj,memberStat:${data}">
+            <div class="row dj" th:attr="data-id=${obj.products.id}">
+                <div class="col-xs-2 col-lg-2 col-md-2" style="border: 0px saddlebrown solid">
+                    <img style="width: 116px;height: 180px" th:src="${obj.imgSrc}" src="img/20191213092712.png" />
+                </div>
+                <div class="col-xs-10 col-lg-10 col-md-10"  style="border: 0px red solid;height: 180px">
+                    <div style="padding-left: 75px">
+                        <h4 th:text="${obj.products.title}">挺博士</h4>
+                        <span style="bottom: 0;position: absolute;" th:text="${#dates.format(obj.products.createDate, 'yyyy-MM-dd HH:mm:ss')}">2019-12-12 17:52:43</span>
+                    </div>
+                </div>
+            </div><br th:if="${session.user != null &amp;&amp; session.user != ''}" />
+            <button style="margin-left: 250px" class="btn btn-danger" th:if="${session.user != null &amp;&amp; session.user != ''}" th:attr="data-id=${obj.products.id}">删除</button>
+            <hr style="background-color: #dedee2;height: 1px;border: none;">
+        </div>
+    </div>
+    <span th:if="${data == null || data.size() == 0 }" style="color: red">无数据！请联系管理员添加数据！</span>
+</body>
+</html>

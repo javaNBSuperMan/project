@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>登录</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-responsive.css">
+    <script src="layui/jquery-2.1.1.min.js"></script>
+    <script src="layui/layui.all.js"></script>
+    <script src="bootstrap/bootstrap.js"></script>
+    <script src="js/base64.js"></script>
+    <script>
+        $(function () {
+            $("#commentForm").submit(function () {
+                $.ajax({
+                    type: "POST",
+                    url: "userLogin",
+                    each: false,
+                    data: {
+                        user: encode64($("#user").val()),
+                        password: encode64($("#password").val())
+                    },
+                    success: function (data) {
+                        if(data > 0) {
+                            layer.alert("登录成功！", {icon: 6});
+                            setTimeout(function() {
+                                var index = parent.layer.getFrameIndex(window.name);
+                                parent.layer.close(index);
+                            }, 1500);
+                        } else {
+                            layer.alert("用户名或者密码错误！", {icon: 5});
+                            setTimeout(function () { location.reload() }, 1500);
+                        }
+                    }
+
+                })
+                return false;
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="container-fluid">
+    <form class="form-horizontal m-t" id="commentForm" method="post">
+        <div class="form-group">
+            <label class="label"> 用户名：</label>
+            <input name="user" id="user" type="text" required="required" class="form-control" autocomplete="off" placeholder="请输入您的用户名" />
+        </div>
+        <div class="form-group">
+            <label class="label"> 密码：</label>
+            <input name="password" id="password" type="password" required="required" class="form-control" autocomplete="off" placeholder="请输入您的密码" />
+        </div>
+        <div class="form-group">
+            <div style="text-align: center">
+                <button type="submit" class="btn btn-success">登录</button>
+                <button type="button" onclick="window.open('getAll')" class="btn btn-primary">返回首页</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

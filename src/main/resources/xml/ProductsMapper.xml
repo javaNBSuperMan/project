@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.project.mapper.ProductsMapper">
+
+    <resultMap id="productsMap" type="com.example.project.model.Products">
+        <id column="id" property="id"></id>
+        <result column="title" property="title"></result>
+        <result column="content" property="content"></result>
+        <result column="create_date" property="createDate"></result>
+        <result column="create_author" property="createAuthor"></result>
+        <result column="update_date" property="updateDate"></result>
+        <result column="update_author" property="updateAuthor"></result>
+        <result column="read_num" property="readNum"></result>
+    </resultMap>
+
+    <select id="getAll" resultMap="productsMap">
+        SELECT * FROM products order by create_date desc
+    </select>
+
+    <select id="getProductsMax" resultMap="productsMap">
+        SELECT * FROM products order by create_date DESC LIMIT 1;
+    </select>
+
+    <select id="getProductsById" resultMap="productsMap">
+        SELECT * FROM products where id = #{id}
+    </select>
+
+    <insert id="save" parameterType="products">
+        insert into
+        products (id, title, content, create_date, create_author, update_date, update_author, read_num)
+        value(
+          #{id},
+          #{title},
+          #{content},
+          #{createDate},
+          #{createAuthor},
+          #{updateDate},
+          #{updateAuthor},
+          #{readNum}
+        )
+    </insert>
+
+    <update id="update" parameterType="products">
+        update products set read_num = #{readNum} where id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="products">
+        delete from products where id = #{id}
+    </delete>
+
+</mapper>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.project.mapper.ProductsImageMapper">
+
+    <resultMap id="productsMap" type="com.example.project.model.ProductsImage">
+        <id column="id" property="id"></id>
+        <result column="products_id" property="productsId"></result>
+        <result column="create_date" property="createDate"></result>
+        <result column="create_author" property="createAuthor"></result>
+        <result column="img_num" property="imgNum"></result>
+        <result column="img_name" property="imgName"></result>
+        <result column="img_size" property="imgSize"></result>
+        <result column="img_src" property="imgSrc"></result>
+    </resultMap>
+
+    <select id="getAll" resultMap="productsMap">
+        SELECT * FROM products_image
+    </select>
+
+    <select id="getAllByProductsid" resultMap="productsMap">
+        SELECT * FROM products_image where products_id = #{productsid} order by img_num asc
+    </select>
+
+    <insert id="save" parameterType="productsImage">
+        insert into
+        products_image(id, products_id, create_date, create_author, img_num, img_name, img_size, img_src)
+        value(
+          #{id},
+          #{productsId},
+          #{createDate},
+          #{createAuthor},
+          #{imgNum},
+          #{imgName},
+          #{imgSize},
+          #{imgSrc}
+        )
+    </insert>
+
+    <delete id="deleteByProductsid" parameterType="productsImage">
+        delete from products_image where products_id = #{id}
+    </delete>
+
+</mapper>
